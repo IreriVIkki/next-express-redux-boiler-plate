@@ -2,6 +2,7 @@ import App from "next/app";
 import withReduxStore from "../lib/with-redux-store";
 import { Provider } from "react-redux";
 import Body from "../components/Body/Body";
+import "../styles/index.scss";
 
 class MyApp extends App {
     render() {

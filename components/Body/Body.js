@@ -34,6 +34,11 @@ export class Body extends Component {
                         content="initial-scale=1.0, width=device-width"
                         key="viewport"
                     />
+                    <link
+                        rel="shortcut icon"
+                        type="image/x-icon"
+                        href="/static/favicon.png"
+                    />
                 </Head>
                 {modal}
                 {this.props.children}

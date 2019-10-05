@@ -26,7 +26,9 @@ const Navbar = props => {
     } else {
         nav = (
             <nav>
-                <button onClick={showLogin}>Login</button>
+                <button className="blue" onClick={showLogin}>
+                    Login
+                </button>
                 <button onClick={showRegister}>Register</button>
             </nav>
         );
